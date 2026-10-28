@@ -2,7 +2,7 @@
  * CrimeVision AI - Backend API Integration Client
  */
 
-const API_BASE = '/api';
+const API_BASE = 'https://crimevision-ai-intelligent-multimodal-80du.onrender.com/api';
 
 export async function fetchHealth() {
   const res = await fetch(`${API_BASE}/health`);
